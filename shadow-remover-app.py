@@ -72,7 +72,7 @@ def pil_to_cv2(pil_img):
 # -------------------------------
 def main():
     st.set_page_config(page_title="Shadow Remover", layout="wide")
-    st.title("🖼️ Shadow Remover Tool")
+    st.title("🖼️ Shadow Remover App")
 
     uploaded_file = st.file_uploader("Upload an image", type=["jpg", "jpeg", "png"])
 
@@ -115,3 +115,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
